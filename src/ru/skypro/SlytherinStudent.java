@@ -58,7 +58,6 @@ public class SlytherinStudent extends HogwartsStudent {
         this.lustPower = lustPower;
     }
 
-    @Override
     public int ability() {
         return cunning + determination + ambition + resourcefulness + lustPower;
     }

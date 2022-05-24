@@ -48,7 +48,6 @@ public class RavenclawStudent extends HogwartsStudent {
         this.creativity = creativity;
     }
 
-    @Override
     public int ability() {
         return intelligence + wisdom + wit + creativity;
     }

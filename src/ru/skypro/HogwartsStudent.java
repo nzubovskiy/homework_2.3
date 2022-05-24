@@ -38,7 +38,7 @@ public class HogwartsStudent {
         this.transgressionDistance = ransgressionDistance;
     }
 
-    public int ability() {
+    public int abilityBased() {
         return magicPower + transgressionDistance;
     }
 
@@ -47,8 +47,8 @@ public class HogwartsStudent {
     }
 
     public void compareTo(HogwartsStudent hogwartsStudent){
-        int ability1 = ability();
-        int ability2 = hogwartsStudent.ability();
+        int ability1 = abilityBased();
+        int ability2 = hogwartsStudent.abilityBased();
         if (ability1 > ability2) {
             System.out.println(getName() + " лучший студент, чем " + hogwartsStudent.getName());
         } else if (ability2 > ability1) {
