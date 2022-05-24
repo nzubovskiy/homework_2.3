@@ -14,8 +14,6 @@ public class GriffindorStudent extends HogwartsStudent {
         this.bravery = bravery;
     }
 
-    int ability = getNobility() + getHonor() + getBravery();
-
     public int getNobility() {
         return nobility;
     }
@@ -40,7 +38,6 @@ public class GriffindorStudent extends HogwartsStudent {
         this.bravery = bravery;
     }
 
-    @Override
     public int ability() {
         return nobility + honor + bravery;
     }
